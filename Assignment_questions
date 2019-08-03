@@ -1,0 +1,75 @@
+Step 01.
+You are working on a project with a Pumpkin function constructor already implemented.
+
+Naturally, the Pumpkin constructor creates an object that simulates a real world pumpkin.
+
+You create a new pumpkin instance using the new keyword and passing in the following 3 initial values:
+
+1. size - a String describing the size of the pumpkin (e.g. "small", "medium", "large");
+2. color - a String describing the color of the pumpkin (e.g. "orange", "green");
+3. shape - a String describing the shape of the pumpkin (e.g. "round", "pear" "flat");
+
+In that order.
+
+Task 1.
+
+Create a new pumpkin object based on the Pumpkin constructor and assign it to a variable named pumpkin.
+Don't forgot to pass in appropriate values for size, color, and shape!
+
+Task 2.
+
+All Pumpkin objects have a describe() method that takes no arguments. Please call the describe method on your new pumpkin object.
+Note: when you run the code, the result output should update.
+
+Task 3. 
+
+All Pumpkin objects have a carve() method that takes no arguments. Please call the carve method on your new pumpkin object.
+Note: when you run the code, the result output should update.
+
+Task 4. 
+
+All Pumpkin objects have a makePie() method that takes no arguments. Please call the makePie method on your new pumpkin object.
+Note: when you run the code, the result output should update.
+
+Task 5.
+
+All Pumpkin objects have a throw() method that takes a single, integer argument representing "distance thrown in yards". Please call the throw method on your new pumpkin object and pass in a reasonable number of yards to throw it. Modify the value passed into the method until the output reads:
+
+"You threw that pumpkin far! Nice job."
+
+
+
+Step 02.
+You are building an online library for your community. One of the tasks assigned to you is to create a Book function constructor that will allow readers to track their reading progress.
+
+Task 1.
+
+Create a Book function constructor that takes the following parameters and assigns their values to the "this" object. (If you need a refresher, look at pumpkin.js).
+
+Book - function
+
+Parameters
+========
+1. title - String
+2. pages - Integer
+3. position - Integer
+
+Make sure you use those names as the properties for the "this" object.
+
+Task 2.
+
+Add a method to the Book prototype called read() that accepts a single, integer parameter pages. The pages parameter should be used to increment this.position and therefore keep track of the current page the user is reading.
+
+Task 3.
+
+Create a new Book object, using the new keyword, with a title of "Eloquent JavaScript", a pages value of 472, and an initial position of 0.
+
+Then call the read() method and pass in a value of 101 pages.
+
+Task 4. 
+
+Add a method to the Book prototype called pagesLeft() that takes no arguments. This method should subtract the this.position property from the this.pages property and return the number of pages left to read.
+
+
+
+
